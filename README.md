@@ -20,9 +20,12 @@ Communication between server and client is accomplished using sockets.
 ## Submitted files:
 
 * Server's code
-	- dataServer.c		- Makefile
-	- queue.h			- util.h
-	- queue.c			- linked_list.h
+	- dataServer.c		
+	- Makefile
+	- queue.h			
+	- util.h
+	- queue.c			
+	- linked_list.h
 	- linked_list.c		
 	- util.c
 
@@ -35,7 +38,10 @@ Communication between server and client is accomplished using sockets.
 make dataServer
 ```
 * remoteClient: 
-- 1st way: Copy Makefile and place it in the same directory with  remoteClient.c and type <make remoteClient> for compilation.
+- 1st way: Copy Makefile and place it in the same directory with  remoteClient.c and type
+```
+make remoteClient>
+```
 - 2nd way: 
 ```
 gcc remoteClient.c -o remoteClient
